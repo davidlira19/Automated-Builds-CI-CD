@@ -1,3 +1,34 @@
+## What are Automated Builds CI/CD?
+Automated builds are...
+![](https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/github_logo.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/davidlira19/Automated-Builds-CI-CD/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
