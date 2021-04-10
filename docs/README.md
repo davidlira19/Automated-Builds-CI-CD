@@ -37,6 +37,6 @@ Guide of automatic builds notifications
 
 ## Contact
 
-Gmail: davidlira1909@gmail.com
+Gmail: <a href="davidlira1909@gmail.com">davidlira1909@gmail.com</a><br/>
 
-Github: davidlira19
+Github: <a href="davidlira19">https://github.com/davidlira19</a><br/>
