@@ -1,5 +1,6 @@
 ## Introduction
-Automated builds are...
+
+On this research I am going to talk about Automated Builds with Continous Integration and Continous Deployment, I will explain the basics concepts of this topic, how to implement it on your repositories and the different uses that we can give to them.
 
 ## Automated Builds
 
