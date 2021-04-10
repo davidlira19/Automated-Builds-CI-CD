@@ -1,68 +1,42 @@
-## What are Automated Builds CI/CD?
+## Introduction
 Automated builds are...
-![](https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/github_logo.png)
 
+## Automated Builds
 
+What are automated builds
 
+### Continous Integration (CI)
 
+What is continous integration
 
+### Continous Deployment (CD)
 
+What is continous integration
 
+## Github Actions
 
+How to config automated builds with Github Actions
 
+### Some Github Actions uses
 
+Guide to write scripts, manual copying README files, etc.
 
+### Automatically zip. and Upload
 
+How to automatically zip and Upload back to github
 
+### Automatic Builds and Notifications
 
+Guide of automatic builds notifications
 
+## Sources Link
 
+https://www.youtube.com/watch?v=cP0I9w2coGU&ab_channel=GitHub
 
+https://docs.github.com/es/actions/guides/setting-up-continuous-integration-using-workflow-templates
 
+## Contact
 
+Gmail: davidlira1909@gmail.com
 
-
-
-
-
-
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/davidlira19/Automated-Builds-CI-CD/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/davidlira19/Automated-Builds-CI-CD/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Github: davidlira19
