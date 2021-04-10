@@ -11,5 +11,3 @@ Useful Links:
 https://www.youtube.com/watch?v=cP0I9w2coGU&ab_channel=GitHub
 
 https://docs.github.com/es/actions
-
-https://docs.github.com/es/actions/guides/setting-up-continuous-integration-using-workflow-templates
