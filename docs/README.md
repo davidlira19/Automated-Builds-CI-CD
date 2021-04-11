@@ -4,7 +4,24 @@ On this research I am going to talk about Automated Builds with Continous Integr
 
 ## Automated Builds
 
-What are automated builds
+Build automation is the process of automating the retrieval of source code, compiling it into binary code, executing automated tests, and publishing it into a shared, centralized repository.
+
+Build automation is a critical first step of any CI/CD process. You must have build automation in place in order for Continuous Integration (CI) and Continous Deployment (CD) to occur.
+
+Automated Builds advantages:
+- A necessary pre-condition for continuous integration and continuous testing
+- Improve product quality
+- Accelerate the compile and link processing
+- Eliminate redundant tasks
+- Minimize "bad builds"
+- Eliminate dependencies on key personnel
+- Have history of builds and releases in order to investigate issues
+- Save time and money - because of the reasons listed above.
+
+<p align="center">
+  <img src="center">
+</p>
+
 
 ### Continous Integration (CI)
 
@@ -30,11 +47,13 @@ How to automatically zip and Upload back to github
 
 Guide of automatic builds notifications
 
-## Sources Link
+## Sources Links
 
 <a href="https://www.youtube.com/watch?v=cP0I9w2coGU&ab_channel=GitHub">https://www.youtube.com/watch?v=cP0I9w2coGU&ab_channel=GitHub</a><br/>
 
 <a href="https://docs.github.com/es/actions/guides/setting-up-continuous-integration-using-workflow-templates">https://docs.github.com/es/actions/guides/setting-up-continuous-integration-using-workflow-templates</a><br/>
+
+<a href="https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process,into%20a%20shared%2C%20centralized%20repository.">https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process,into%20a%20shared%2C%20centralized%20repository.</a><br/>
 
 ## Contact
 
