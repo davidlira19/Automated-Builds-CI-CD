@@ -67,7 +67,7 @@ When the developer performs a push on the source code Continous Integration auto
 
 ### Continous Deployment (CD)
 
-Continuous deployment builds on Continous Integration, is the methodology of creating a robust testing framework and automatically pushing your code out when tests pass. When new code is committed and passes the CI tests, the code is automatically deployed to production. 
+Continuous Deployment builds on Continous Integration, is the methodology of creating a robust testing framework and automatically pushing your code out when tests pass. When new code is committed and passes the CI tests, the code is automatically deployed to production. 
 
 Continuous deployment also encourages other kinds of continuous action, like analytics, error reporting, and testing.
 
@@ -80,6 +80,15 @@ Continous deployment benefits:
 - Ship both cloud-native and traditional applications in a unified pipeline.
 - Improve overall productivity.
 
+How Continous Deployment works?
+
+<p align="center">
+  <img src="images/continous_deployment.png">
+</p>
+
+As mentioned before, Continous Deployment works on Continous Integration, the work of Continous Deployment Software or Continous Delivery is to push and commit the code after the Continous Integration tests finished.
+
+On the diagram above
 
 ## Github Actions
 
