@@ -176,7 +176,7 @@ Guide to write scripts, manual copying README files, etc.
 
 ### Automatically zip. and Upload
 
-How to automatically zip and Upload back to github
+How to automatically zip and Upload back to github (CD)
 
 
 ### Automatic Builds and Notifications
