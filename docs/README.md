@@ -18,15 +18,15 @@ Automated Builds advantages:
 - Have history of builds and releases in order to investigate issues
 - Save time and money - because of the reasons listed above.
 
-We can find different types of automation softwares for different code languages that can be applied on Github Actions (what we will talk about later), there are some examples:
+We can find different types of automation softwares for different code languages that can be applied on Github Actions (what we will talk about later), there are all the avaible ones for each automated build task:
 
-For Continous Deployment:
+#### For Continous Deployment:
 
 <p align="center">
   <img src="images/continous_deployment_examples.PNG">
 </p>
 
-For Continous Integration:
+#### For Continous Integration:
 
 <p align="center">
   <img src="images/continous_integration_examples1.PNG">
@@ -82,18 +82,39 @@ Continous deployment benefits:
 
 How Continous Deployment works?
 
+As mentioned before, Continous Deployment works on Continous Integration, the work of Continous Deployment Software or Continous Delivery is to push and commit the code after the Continous Integration tests finished.
+
 <p align="center">
   <img src="images/continous_deployment.png">
 </p>
 
-As mentioned before, Continous Deployment works on Continous Integration, the work of Continous Deployment Software or Continous Delivery is to push and commit the code after the Continous Integration tests finished.
+On the diagram above we can see all the phases of an Automated Build with the Continous Integration and Continous Deployment working on it. As you can see, the CI software is the first one working, it builds and test the code, after that the CD sfotware enters in scene testing the release to deploy it and finally operate it.
 
-On the diagram above
+## GitHub Actions
 
-## Github Actions
+<p align="center">
+  <img src="images/github_logo.png">
+</p>
 
-How to config automated builds with Github Actions
+GitHub Actions is the way we will integrate Automated Builds in our GitHub projects, with this tool we can automate, customize, and run our software development workflows directly in our repository. We can discover, create and share actions to perform any job you want, including CI / CD, and combine actions into a completely customized workflow.
+Thanks to GitHub we will be capable we can download actions already programmed by other users and use them directly in our project.
 
+Now we konw what Automated Builds are and how they work, but how we set up automated builds with Github Actions?
+
+1. Go to your repository main page
+2. Click on "Actions" below your repository name
+
+<p align="center">
+  <img src="paso_2.PNG">
+</p>
+
+3. Find the software you want that matches the code you are gonna work with and click "Set up this workflow" (these are the above mentioned softwares for CI)
+
+<p align="center">
+  <img src="paso_3.PNG">
+</p>
+
+4. 
 
 ### Some Github Actions uses
 
@@ -123,4 +144,4 @@ Guide of automatic builds notifications
 
 Gmail: <a href="davidlira1909@gmail.com">davidlira1909@gmail.com</a><br/>
 
-Github: <a href="davidlira19">https://github.com/davidlira19</a><br/>
+GitHub: <a href="davidlira19">https://github.com/davidlira19</a><br/>
