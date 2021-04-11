@@ -60,7 +60,7 @@ Continous integration benefits:
 How Continous Integration works?
 
 <p align="center">
-  <img src="images/continous_integration.PNG">
+  <img src="images/continous_integration.png">
 </p>
 
 When the developer performs a push on the source code Continous Integration automatically builds the code and test it, once is test it, the software reports if the code works, if the code is correct automatically will release it to the selected branch.
