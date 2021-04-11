@@ -18,7 +18,7 @@ Automated Builds advantages:
 - Have history of builds and releases in order to investigate issues
 - Save time and money - because of the reasons listed above.
 
-We can find different types of automation softwares for different code languages that can be applied on Github Actions (what we will talk about later), there are all the avaible ones for each automated build task:
+  We can find different types of automation softwares for different code languages that can be applied on Github Actions (what I will talk about later), there are all the avaible ones for each automated build task:
 
 #### For Continous Deployment:
 
@@ -96,8 +96,8 @@ On the diagram above we can see all the phases of an Automated Build with the Co
   <img src="images/github_logo.png">
 </p>
 
-GitHub Actions is the way we will integrate Automated Builds in our GitHub projects, with this tool we can automate, customize, and run our software development workflows directly in our repository. We can discover, create and share actions to perform any job you want, including CI / CD, and combine actions into a completely customized workflow.
-Thanks to GitHub we will be capable we can download actions already programmed by other users and use them directly in our project.
+GitHub Actions is the way we will integrate Automated Builds in our GitHub projects, with this tool we can automate, customize, and run our software development workflows (what I will talk more deeply later) directly in our repository. We can discover, create and share actions to perform any job you want, including CI / CD, and combine actions into a completely customized workflows.
+Thanks to GitHub we will be capable to download actions already programmed by other users and use them directly in our project.
 
 We know what Automated Builds are and how they work, but how we set up automated builds with Github Actions?
 
@@ -135,8 +135,13 @@ We know what Automated Builds are and how they work, but how we set up automated
 ### Workflows
 
 Now we have our Continous Integration workflow added on our GitHub, but what exactly are these workflows? How they work?
+Workflows are are .yml or .yaml files that made all the processes of Build Automation such as build, test, package, release, or deploy our code on GitHub.
 
-### Some Github Actions uses
+<p align="center">
+  <img src="workflow.png">
+</p>
+
+### Some GitHub Actions uses
 
 Guide to write scripts, manual copying README files, etc.
 
