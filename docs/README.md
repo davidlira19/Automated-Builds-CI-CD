@@ -105,16 +105,34 @@ Now we konw what Automated Builds are and how they work, but how we set up autom
 2. Click on "Actions" below your repository name
 
 <p align="center">
-  <img src="paso_2.PNG">
+  <img src="images/paso_2.PNG">
 </p>
 
-3. Find the software you want that matches the code you are gonna work with and click "Set up this workflow" (these are the above mentioned softwares for CI)
+3. Find the software you want that matches the code you are gonna work with and click "Set up this workflow" (these are the above mentioned softwares for CI) I recommend
 
 <p align="center">
-  <img src="paso_3.PNG">
+  <img src="images/paso_3.PNG">
 </p>
 
-4. 
+4. Click on "Start Commit"
+
+<p align="center">
+  <img src="images/paso_4.PNG">
+</p>
+
+5. Select "Create new branch for this commit and start a pull request" and name it as you want
+
+<p align="center">
+  <img src="images/paso_5.PNG">
+</p>
+
+6. Click on propose new file
+
+<p align="center">
+  <img src="images/paso_6.PNG">
+</p>
+
+Now that we have our...
 
 ### Some Github Actions uses
 
@@ -139,6 +157,8 @@ Guide of automatic builds notifications
 <a href="https://circleci.com/continuous-integration/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPCtaregAKqrh34Nf2OVNWYPRqjf38NP4E1ZbAEIeDrBVJMSNu7jMtRoCq3oQAvD_BwE">https://circleci.com/continuous-integration/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPCtaregAKqrh34Nf2OVNWYPRqjf38NP4E1ZbAEIeDrBVJMSNu7jMtRoCq3oQAvD_BwE</a><br/>
 
 <a href="https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE">https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE</a><br/>
+
+<a href="https://www.plainconcepts.com/es/que-es-github-actions/">https://www.plainconcepts.com/es/que-es-github-actions/</a><br/>
 
 ## Contact
 
