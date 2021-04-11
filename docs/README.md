@@ -99,40 +99,42 @@ On the diagram above we can see all the phases of an Automated Build with the Co
 GitHub Actions is the way we will integrate Automated Builds in our GitHub projects, with this tool we can automate, customize, and run our software development workflows directly in our repository. We can discover, create and share actions to perform any job you want, including CI / CD, and combine actions into a completely customized workflow.
 Thanks to GitHub we will be capable we can download actions already programmed by other users and use them directly in our project.
 
-Now we konw what Automated Builds are and how they work, but how we set up automated builds with Github Actions?
+We know what Automated Builds are and how they work, but how we set up automated builds with Github Actions?
 
 1. Go to your repository main page
 2. Click on "Actions" below your repository name
 
-<p align="center">
+<p align="left">
   <img src="images/paso_2.PNG">
 </p>
 
-3. Find the software you want that matches the code you are gonna work with and click "Set up this workflow" (these are the above mentioned softwares for CI) I recommend
+3. Find the software you want that matches the code you are gonna work with and click "Set up this workflow" (these are the above mentioned softwares for CI) in my case I used "Jekyll" that is based on HTML
 
-<p align="center">
+<p align="left">
   <img src="images/paso_3.PNG">
 </p>
 
 4. Click on "Start Commit"
 
-<p align="center">
+<p align="left">
   <img src="images/paso_4.PNG">
 </p>
 
-5. Select "Create new branch for this commit and start a pull request" and name it as you want
+5. Select "Create new branch for this commit and start a pull request" and name it as you want and click on "Propose new file"
 
-<p align="center">
+<p align="left">
   <img src="images/paso_5.PNG">
 </p>
 
-6. Click on propose new file
+6. Click on "Create pull request"
 
-<p align="center">
+<p align="left">
   <img src="images/paso_6.PNG">
 </p>
 
-Now that we have our...
+### Workflows
+
+Now we have our Continous Integration workflow added on our GitHub, but what exactly are these workflows? How they work?
 
 ### Some Github Actions uses
 
