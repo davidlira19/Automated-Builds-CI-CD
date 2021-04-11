@@ -23,25 +23,25 @@ We can find different types of automation softwares for different code languages
 For Continous Deployment:
 
 <p align="center">
-  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_deployment_examples.PNG">
+  <img src="images/continous_deployment_examples.PNG">
 </p>
 
 For Continous Integration:
 
 <p align="center">
-  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_integration_examples1.PNG">
+  <img src="images/continous_integration_examples1.PNG">
 </p>
 
 <p align="center">
-  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_integration_examples2.PNG">
+  <img src="images/continous_integration_examples2.PNG">
 </p>
 
 <p align="center">
-  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_integration_examples3.PNG">
+  <img src="images/continous_integration_examples3.PNG">
 </p>
 
 <p align="center">
-  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_integration_examples4.PNG">
+  <img src="images/continous_integration_examples4.PNG">
 </p>
 
 
