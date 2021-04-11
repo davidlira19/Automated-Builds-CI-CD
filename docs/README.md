@@ -18,22 +18,57 @@ Automated Builds advantages:
 - Have history of builds and releases in order to investigate issues
 - Save time and money - because of the reasons listed above.
 
+We can find different types of automation softwares for different code languages that can be applied on Github Actions (what we will talk about later), there are some examples:
+
+For Continous Deployment:
+
 <p align="center">
-  <img src="center">
+  <img src="images/continous_deployment_examples.PNG">
+</p>
+
+For Continous Integration:
+
+<p align="center">
+  <img src="images/continous_integration_examples1.PNG">
+</p>
+
+<p align="center">
+  <img src="images/continous_integration_examples2.PNG">
+</p>
+
+<p align="center">
+  <img src="images/continous_integration_examples3.PNG">
+</p>
+
+<p align="center">
+  <img src="images/continous_integration_examples4.PNG">
 </p>
 
 
 ### Continous Integration (CI)
 
-What is continous integration
+Continuous Integration (CI) is a software development strategy that increases the speed of development while ensuring the quality of the code that teams deploy. Developers continually commit code in small increments, which is then automatically built and tested before it is merged with the shared repository.
+
+Continous integration benefits:
+- Improve team productivity and efficiency
+- Accelerate speed to market
+- Identify product/market fit
+- Release higher quality, more stable products
+- Increase customer satisfaction
+- Keep developers happy and shipping code
+
 
 ### Continous Deployment (CD)
 
-What is continous integration
+Continuous deployment is the methodology of creating a robust testing framework and automatically pushing your code out when tests pass.
+
+Continuous deployment also encourages other kinds of continuous action, like analytics, error reporting, and testing.
+
 
 ## Github Actions
 
 How to config automated builds with Github Actions
+
 
 ### Some Github Actions uses
 
@@ -53,7 +88,11 @@ Guide of automatic builds notifications
 
 <a href="https://docs.github.com/es/actions/guides/setting-up-continuous-integration-using-workflow-templates">https://docs.github.com/es/actions/guides/setting-up-continuous-integration-using-workflow-templates</a><br/>
 
-<a href="https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process,into%20a%20shared%2C%20centralized%20repository.">https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process,into%20a%20shared%2C%20centralized%20repository.</a><br/>
+<a href="https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process,into%20a%20shared%2C%20centralized%20repository.">https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process,into%20a%20shared%2C%20centralized%20repository</a><br/>
+
+<a href="https://circleci.com/continuous-integration/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPCtaregAKqrh34Nf2OVNWYPRqjf38NP4E1ZbAEIeDrBVJMSNu7jMtRoCq3oQAvD_BwE">https://circleci.com/continuous-integration/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPCtaregAKqrh34Nf2OVNWYPRqjf38NP4E1ZbAEIeDrBVJMSNu7jMtRoCq3oQAvD_BwE</a><br/>
+
+<a href="https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE">https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE</a><br/>
 
 ## Contact
 
