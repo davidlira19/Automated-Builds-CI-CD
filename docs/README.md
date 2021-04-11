@@ -2,6 +2,8 @@
 
 On this research I am going to talk about Automated Builds with Continous Integration and Continous Deployment, I will explain the basics concepts of this topic, how to implement it on your repositories and the different uses that we can give to them.
 
+
+
 ## Automated Builds
 
 Build automation is the process of automating the retrieval of source code, compiling it into binary code, executing automated tests, and publishing it into a shared, centralized repository.
@@ -19,12 +21,14 @@ Automated Builds advantages:
 - Save time and money - because of the reasons listed above.
 
   We can find different types of automation softwares for different code languages that can be applied on Github Actions (what I will talk about later), there are all the avaible ones for each automated build task:
+  
 
 #### For Continous Deployment:
 
 <p align="center">
   <img src="images/continous_deployment_examples.PNG">
 </p>
+
 
 #### For Continous Integration:
 
@@ -65,6 +69,7 @@ How Continous Integration works?
 
 When the developer performs a push on the source code Continous Integration automatically builds the code and test it, once is test it, the software reports if the code works, if the code is correct automatically will release it to the selected branch.
 
+
 ### Continous Deployment (CD)
 
 Continuous Deployment builds on Continous Integration, is the methodology of creating a robust testing framework and automatically pushing your code out when tests pass. When new code is committed and passes the CI tests, the code is automatically deployed to production. 
@@ -89,6 +94,8 @@ As mentioned before, Continous Deployment works on Continous Integration, the wo
 </p>
 
 On the diagram above we can see all the phases of an Automated Build with the Continous Integration and Continous Deployment working on it. As you can see, the CI software is the first one working, it builds and test the code, after that the CD sfotware enters in scene testing the release to deploy it and finally operate it.
+
+
 
 ## GitHub Actions
 
@@ -132,6 +139,7 @@ We know what Automated Builds are and how they work, but how we set up automated
   <img src="images/paso_6.PNG">
 </p>
 
+
 ### Workflows
 
 Now we have our Continous Integration workflow added on our GitHub, but what exactly are these workflows? How they work?
@@ -160,17 +168,22 @@ It consists of a set of tasks to be able to execute a job. These can execute com
 
 It is the smallest building block in a workflow and can be combined as steps to create a job.
 
+
 ### Some GitHub Actions uses
 
 Guide to write scripts, manual copying README files, etc.
+
 
 ### Automatically zip. and Upload
 
 How to automatically zip and Upload back to github
 
+
 ### Automatic Builds and Notifications
 
 Guide of automatic builds notifications
+
+
 
 ## Sources Links
 
@@ -185,6 +198,8 @@ Guide of automatic builds notifications
 <a href="https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE">https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE</a><br/>
 
 <a href="https://www.plainconcepts.com/es/que-es-github-actions/">https://www.plainconcepts.com/es/que-es-github-actions/</a><br/>
+
+
 
 ## Contact
 
