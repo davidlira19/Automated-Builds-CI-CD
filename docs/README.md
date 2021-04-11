@@ -18,9 +18,32 @@ Automated Builds advantages:
 - Have history of builds and releases in order to investigate issues
 - Save time and money - because of the reasons listed above.
 
+We can find different types of automation softwares for different code languages that can be applied on github, there are some examples:
+
+For Continous Deployment:
+
 <p align="center">
-  <img src="center">
+  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_deployment_examples.PNG">
 </p>
+
+For Continous Integration:
+
+<p align="center">
+  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_integration_examples1.PNG">
+</p>
+
+<p align="center">
+  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_integration_examples2.PNG">
+</p>
+
+<p align="center">
+  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_integration_examples3.PNG">
+</p>
+
+<p align="center">
+  <img src="https://github.com/davidlira19/Automated-Builds-CI-CD/blob/main/docs/images/continous_integration_examples4.PNG">
+</p>
+
 
 
 ### Continous Integration (CI)
