@@ -135,11 +135,30 @@ We know what Automated Builds are and how they work, but how we set up automated
 ### Workflows
 
 Now we have our Continous Integration workflow added on our GitHub, but what exactly are these workflows? How they work?
-Workflows are are .yml or .yaml files that made all the processes of Build Automation such as build, test, package, release, or deploy our code on GitHub.
+
+Workflows are all the processes of Build Automation such as build, test, package, release, or deploy our code on GitHub.
+
+They are an automated procedure made up of one or more jobs that is added to a repository and can be triggered by an event. They are defined using yaml. or yml. files and with it you can build, test, package, reread or deploy a project.
 
 <p align="center">
-  <img src="workflow.png">
+  <img src="images/workflow.png">
 </p>
+
+#### Event
+
+They are specific activities that trigger the execution of a workflow.
+
+#### Job
+
+It is a set of steps that are executed in the runner of our process. Jobs can be run independently or sequentially depending on whether the success of our work depends on the previous one.
+
+#### Steps
+
+It consists of a set of tasks to be able to execute a job. These can execute commands or actions.
+
+#### Actions/Commands
+
+It is the smallest building block in a workflow and can be combined as steps to create a job.
 
 ### Some GitHub Actions uses
 
