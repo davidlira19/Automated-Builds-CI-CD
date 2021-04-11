@@ -57,12 +57,28 @@ Continous integration benefits:
 - Increase customer satisfaction
 - Keep developers happy and shipping code
 
+How Continous Integration works?
+
+<p align="center">
+  <img src="images/continous_integration.png">
+</p>
+
+When the developer performs a push on the source code Continous Integration automatically builds the code and test it, once is test it, the software reports if the code works, if the code is correct automatically will release it to the selected branch.
 
 ### Continous Deployment (CD)
 
-Continuous deployment is the methodology of creating a robust testing framework and automatically pushing your code out when tests pass.
+Continuous deployment builds on Continous Integration, is the methodology of creating a robust testing framework and automatically pushing your code out when tests pass. When new code is committed and passes the CI tests, the code is automatically deployed to production. 
 
 Continuous deployment also encourages other kinds of continuous action, like analytics, error reporting, and testing.
+
+Continous deployment benefits:
+- Automate the repetitive tasks and focus on actual testing.
+- Make deployments frictionless without compromising security.
+- Connect your existing tools and technologies (such as CI providers or scripts) into a harmonious workflow.
+- Integrate teams and processes with a unified pipeline.
+- Create workflows across the development, testing, and production environments
+- Ship both cloud-native and traditional applications in a unified pipeline.
+- Improve overall productivity.
 
 
 ## Github Actions
