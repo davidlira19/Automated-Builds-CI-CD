@@ -39,7 +39,7 @@ jobs:
          # Tool to use for archiving
         # type: zip
      - name: Upload Release
-       uses: ncipollo/release-action@v1.8.3
+       uses: ncipollo/release-action@4f02b8b744f6c9525f816ac921246f2fb899f1d5
        with:
         artifacts: "release.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
