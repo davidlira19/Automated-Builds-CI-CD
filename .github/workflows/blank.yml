@@ -39,7 +39,7 @@ jobs:
          # Tool to use for archiving
         # type: zip
      - name: Upload Release
-       uses: davidlira19/release-action@v1
+       uses: ncipollo/release-action@v1
        with:
         artifacts: "release.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
