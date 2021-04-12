@@ -33,7 +33,7 @@ jobs:
          # Base path for archive files
          path: zip -r release.zip . -i https://github.com/davidlira19/Automated-Builds-CI-CD/tree/main/docs
          # Working directory before zipping
-         directory: https://github.com/davidlira19/Automated-Builds-CI-CD/releases/new
+        # directory: https://github.com/davidlira19/Automated-Builds-CI-CD/releases/new
          # List of excluded files / directories
         # exclusions: # optional, default is 
          # Tool to use for archiving
