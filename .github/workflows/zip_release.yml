@@ -30,14 +30,8 @@ jobs:
        with:
          # Filename for archive
          filename: 'release.zip'
-         # Base path for archive files
-         path: https://github.com/davidlira19/Automated-Builds-CI-CD/tree/main
-         # Working directory before zipping
-         directory: ${{env.working-directory}}
          # List of excluded files / directories
          exclusions: '*.gitignore*'
-         # Tool to use for archiving
-        # type: zip
      - name: Upload Release
        uses: ncipollo/release-action@v1.8.3
        with:
