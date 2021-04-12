@@ -22,16 +22,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it     
-     - name: Zip Release
-  # You may pin to the exact commit or the version.
-  # uses: TheDoctor0/zip-release@a1afcab9c664c9976ac398fa831eac67bed1eb0e
-       uses: TheDoctor0/zip-release@0.4.1
+     - uses: actions/checkout@master
+     - name: Archive Release
+       uses: thedoctor0/zip-release@master
        with:
-         # Filename for archive
-         filename: 'release.zip'
-         # List of excluded files / directories
-         exclusions: '*.gitignore*'
+        filename: 'release.zip'
+        exclusions: '*.gitignore*'
+        
      - name: Upload Release
        uses: ncipollo/release-action@v1.8.3
        with:
