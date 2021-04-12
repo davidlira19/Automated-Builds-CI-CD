@@ -41,6 +41,7 @@ jobs:
      - name: Upload Release
        uses: ncipollo/release-action@v1.8.3
        with:
-        tag: ${{ startsWith(github.ref, 'refs/tags/Release') }}
+       
+        tag: ${{ startsWith(github.ref, 'refs/tags/') }}
         artifacts: "release.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
