@@ -249,4 +249,4 @@ Guide of automatic builds notifications
 
 Gmail: <a href="davidlira1909@gmail.com">davidlira1909@gmail.com</a><br/>
 
-GitHub: <a href="davidlira19">https://github.com/davidlira19</a><br/>
+GitHub: <a href="https://github.com/davidlira19">https://github.com/davidlira19</a><br/>
