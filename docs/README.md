@@ -148,9 +148,8 @@ Workflows are all the processes of Build Automation such as build, test, package
 
 They are an automated procedure made up of one or more jobs that is added to a repository and can be triggered by an event. They are defined using yaml. or yml. files and with it you can build, test, package, reread or deploy a project.
 
-<p align="center">
-  <img src="images/workflow.png">
-</p>
+#### Basic Concepts:
+
 
 #### Event
 
@@ -168,11 +167,31 @@ It consists of a set of tasks to be able to execute a job. These can execute com
 
 It is the smallest building block in a workflow and can be combined as steps to create a job.
 
+<p align="center">
+  <img src="images/workflow.png">
+</p>
 
-### Some GitHub Actions uses
+#### Runner
+
+It is a machine with the GitHub Actions application already installed, whose function is to wait for the jobs to be available and then be able to execute the actions and report the progress and results.
+
+
+### Some GitHub Actions uses and benefits
 
 Guide to write scripts, manual copying README files, etc.
+One of the defining characteristics of GitHub Actions is the flexibility it provides, which translates into opening up a wide range of possibilities in which developers can unleash their creativity. Here are some other benefits that GitHub Actions offers:
 
+#### Developing on GitHub
+
+The Actions option is fully integrated into GitHub, so it doesn't require an external site. This means that we can manage everything in the same place where we have the functions related to the repository.
+
+#### Big variety of CI templates
+
+The platform provides many templates for all kinds of Continous Integration configurations, making it much easier to get started. In addition, you also have the option to create your own templates to later publish them on GitHub Marketplace.
+
+#### Free for everyone
+
+GitHub Actions is free for all open source repositories, and allows you to
 
 ### Automatically zip. and Upload
 
@@ -198,6 +217,8 @@ Guide of automatic builds notifications
 <a href="https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE">https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE</a><br/>
 
 <a href="https://www.plainconcepts.com/es/que-es-github-actions/">https://www.plainconcepts.com/es/que-es-github-actions/</a><br/>
+
+<a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">https://gabrieltanner.org/blog/an-introduction-to-github-actions</a><br/>
 
 
 
