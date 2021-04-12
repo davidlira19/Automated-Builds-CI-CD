@@ -29,12 +29,17 @@ jobs:
        uses: TheDoctor0/zip-release@0.4.1
        with:
          # Filename for archive
-         filename: release.zip
+         filename: 'release.zip'
          # Base path for archive files
-         path: zip -r release.zip . -i davidlira19/Automated-Builds-CI-CD/tree/main/docs
+        # path: zip -r release.zip . -i davidlira19/Automated-Builds-CI-CD/tree/main/docs
          # Working directory before zipping
         # directory: https://github.com/davidlira19/Automated-Builds-CI-CD/releases/new
          # List of excluded files / directories
         # exclusions: # optional, default is 
          # Tool to use for archiving
         # type: zip
+     - name: Upload Release
+       uses: davidlira19/release-action@v1
+       with:
+        artifacts: "release.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
