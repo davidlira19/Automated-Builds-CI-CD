@@ -191,7 +191,30 @@ The platform provides many templates for all kinds of Continous Integration conf
 
 #### Free for everyone
 
-GitHub Actions is free for all open source repositories, and allows you to
+GitHub Actions is free for all open source repositories, and allows you to download and create your own workflows.
+
+## Create your own workflow
+
+You can create your own workflows for GitHub Actions:
+
+1. Go to Github and select "New workflow"
+
+<p align="center">
+  <img src="images/paso_1v2.PNG">
+</p>
+
+2. Click on "Set Up This Workflow" on Simple workflow 
+
+<p align="center">
+  <img src="images/paso_2v2.PNG">
+</p>
+
+3. Now you can modify the code as you want for create the workflow you want, if you want a more detailed guide of how the workflow works I recommend you to visit this <a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">website</a><br/>wich explains much more deeper how the workflow code works
+
+<p align="center">
+  <img src="images/paso_3v2.PNG">
+</p>
+
 
 ### Automatically zip. and Upload
 
