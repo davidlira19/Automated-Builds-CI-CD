@@ -223,8 +223,13 @@ How to automatically zip and Upload back to github (CD)
 
 ### Automatic Builds and Notifications
 
-Guide of automatic builds notifications
+You can receive Automated Builds notifications on your gmail if you want, is so easy to activate this feature:
 
+<p align="center">
+  <img src="images/notifications.png">
+</p>
+
+If this option is enabled you will recieve a notification each time the push fails or the CD makes a release, is activated by default
 
 
 ## Sources Links
