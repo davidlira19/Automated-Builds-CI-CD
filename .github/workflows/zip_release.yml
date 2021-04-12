@@ -31,9 +31,9 @@ jobs:
          # Filename for archive
          filename: 'release.zip'
          # Base path for archive files
-       # path: release.zip -r release.zip . -i https://github.com/davidlira19/Automated-Builds-CI-CD/tree/main
+         path: zip -r release.zip . -i https://github.com/davidlira19/Automated-Builds-CI-CD/tree/main
          # Working directory before zipping
-       # directory: /docs
+         directory: ${{env.working-directory}}
          # List of excluded files / directories
          exclusions: '*.gitignore*'
          # Tool to use for archiving
