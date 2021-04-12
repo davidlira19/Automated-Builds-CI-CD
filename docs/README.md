@@ -2,6 +2,8 @@
 
 On this research I am going to talk about Automated Builds with Continous Integration and Continous Deployment, I will explain the basics concepts of this topic, how to implement it on your repositories and the different uses that we can give to them.
 
+
+
 ## Automated Builds
 
 Build automation is the process of automating the retrieval of source code, compiling it into binary code, executing automated tests, and publishing it into a shared, centralized repository.
@@ -18,13 +20,15 @@ Automated Builds advantages:
 - Have history of builds and releases in order to investigate issues
 - Save time and money - because of the reasons listed above.
 
-We can find different types of automation softwares for different code languages that can be applied on Github Actions (what we will talk about later), there are all the avaible ones for each automated build task:
+  We can find different types of automation softwares for different code languages that can be applied on Github Actions (what I will talk about later), there are all the avaible ones for each automated build task:
+  
 
 #### For Continous Deployment:
 
 <p align="center">
   <img src="images/continous_deployment_examples.PNG">
 </p>
+
 
 #### For Continous Integration:
 
@@ -65,6 +69,7 @@ How Continous Integration works?
 
 When the developer performs a push on the source code Continous Integration automatically builds the code and test it, once is test it, the software reports if the code works, if the code is correct automatically will release it to the selected branch.
 
+
 ### Continous Deployment (CD)
 
 Continuous Deployment builds on Continous Integration, is the methodology of creating a robust testing framework and automatically pushing your code out when tests pass. When new code is committed and passes the CI tests, the code is automatically deployed to production. 
@@ -90,14 +95,16 @@ As mentioned before, Continous Deployment works on Continous Integration, the wo
 
 On the diagram above we can see all the phases of an Automated Build with the Continous Integration and Continous Deployment working on it. As you can see, the CI software is the first one working, it builds and test the code, after that the CD sfotware enters in scene testing the release to deploy it and finally operate it.
 
+
+
 ## GitHub Actions
 
 <p align="center">
   <img src="images/github_logo.png">
 </p>
 
-GitHub Actions is the way we will integrate Automated Builds in our GitHub projects, with this tool we can automate, customize, and run our software development workflows directly in our repository. We can discover, create and share actions to perform any job you want, including CI / CD, and combine actions into a completely customized workflow.
-Thanks to GitHub we will be capable we can download actions already programmed by other users and use them directly in our project.
+GitHub Actions is the way we will integrate Automated Builds in our GitHub projects, with this tool we can automate, customize, and run our software development workflows (what I will talk more deeply later) directly in our repository. We can discover, create and share actions to perform any job you want, including CI / CD, and combine actions into a completely customized workflows.
+Thanks to GitHub we will be capable to download actions already programmed by other users and use them directly in our project.
 
 We know what Automated Builds are and how they work, but how we set up automated builds with Github Actions?
 
@@ -132,21 +139,70 @@ We know what Automated Builds are and how they work, but how we set up automated
   <img src="images/paso_6.PNG">
 </p>
 
+
 ### Workflows
 
 Now we have our Continous Integration workflow added on our GitHub, but what exactly are these workflows? How they work?
 
-### Some Github Actions uses
+Workflows are all the processes of Build Automation such as build, test, package, release, or deploy our code on GitHub.
+
+They are an automated procedure made up of one or more jobs that is added to a repository and can be triggered by an event. They are defined using yaml. or yml. files and with it you can build, test, package, reread or deploy a project.
+
+#### Basic Concepts:
+
+
+#### Event
+
+They are specific activities that trigger the execution of a workflow.
+
+#### Job
+
+It is a set of steps that are executed in the runner of our process. Jobs can be run independently or sequentially depending on whether the success of our work depends on the previous one.
+
+#### Steps
+
+It consists of a set of tasks to be able to execute a job. These can execute commands or actions.
+
+#### Actions/Commands
+
+It is the smallest building block in a workflow and can be combined as steps to create a job.
+
+<p align="center">
+  <img src="images/workflow.png">
+</p>
+
+#### Runner
+
+It is a machine with the GitHub Actions application already installed, whose function is to wait for the jobs to be available and then be able to execute the actions and report the progress and results.
+
+
+### Some GitHub Actions uses and benefits
 
 Guide to write scripts, manual copying README files, etc.
+One of the defining characteristics of GitHub Actions is the flexibility it provides, which translates into opening up a wide range of possibilities in which developers can unleash their creativity. Here are some other benefits that GitHub Actions offers:
+
+#### Developing on GitHub
+
+The Actions option is fully integrated into GitHub, so it doesn't require an external site. This means that we can manage everything in the same place where we have the functions related to the repository.
+
+#### Big variety of CI templates
+
+The platform provides many templates for all kinds of Continous Integration configurations, making it much easier to get started. In addition, you also have the option to create your own templates to later publish them on GitHub Marketplace.
+
+#### Free for everyone
+
+GitHub Actions is free for all open source repositories, and allows you to
 
 ### Automatically zip. and Upload
 
-How to automatically zip and Upload back to github
+How to automatically zip and Upload back to github (CD)
+
 
 ### Automatic Builds and Notifications
 
 Guide of automatic builds notifications
+
+
 
 ## Sources Links
 
@@ -161,6 +217,10 @@ Guide of automatic builds notifications
 <a href="https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE">https://circleci.com/blog/a-brief-history-of-devops-part-iv-continuous-delivery-and-continuous-deployment/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPMWOf-31NesTKlzN2DE5NnP2vebxNsTVT36TD4JJUrrJ-BfqXk3iPhoCP9oQAvD_BwE</a><br/>
 
 <a href="https://www.plainconcepts.com/es/que-es-github-actions/">https://www.plainconcepts.com/es/que-es-github-actions/</a><br/>
+
+<a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">https://gabrieltanner.org/blog/an-introduction-to-github-actions</a><br/>
+
+
 
 ## Contact
 
