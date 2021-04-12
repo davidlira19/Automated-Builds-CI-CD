@@ -6,9 +6,9 @@ name: Zip_Release
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    tags: [ main ]
   pull_request:
-    branches: [ main ]
+    tags: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -39,7 +39,7 @@ jobs:
          # Tool to use for archiving
         # type: zip
      - name: Upload Release
-       uses: ncipollo/release-action@4f02b8b744f6c9525f816ac921246f2fb899f1d5
+       uses: ncipollo/release-action@v1.8.3
        with:
         artifacts: "release.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
