@@ -31,16 +31,16 @@ jobs:
          # Filename for archive
          filename: 'release.zip'
          # Base path for archive files
-         path: zip -r release.zip . -i davidlira19/Automated-Builds-CI-CD/tree/main/docs
+         path: -r release.zip . -i davidlira19/Automated-Builds-CI-CD/tree/main/docs
          # Working directory before zipping
-        # directory: https://github.com/davidlira19/Automated-Builds-CI-CD/releases/new
+         directory: -r release.zip . -i davidlira19/Automated-Builds-CI-CD/tree/main/docs
          # List of excluded files / directories
-        # exclusions: # optional, default is 
+         exclusions: '*.gitignore*'
          # Tool to use for archiving
         # type: zip
      - name: Upload Release
        uses: ncipollo/release-action@v1.8.3
        with:
-        tag: ${{ startsWith(github.ref, 'refs/tags/') }}
+        tag: ${{ startsWith(github.ref, 'refs/tags/Release') }}
         artifacts: "release.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
