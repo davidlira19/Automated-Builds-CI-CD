@@ -1,6 +1,6 @@
 ## Introduction
 
-On this research I am going to talk about Automated Builds with Continous Integration and Continous Deployment, I will explain the basics concepts of this topic, how to implement it on your repositories and the different uses that we can give to them.
+On this research I am going to talk about Automated Builds with Continuous Integration and Continuous Deployment, I will explain the basics concepts of this topic, how to implement it on your repositories and the different uses that we can give to them.
 
 
 
@@ -8,7 +8,7 @@ On this research I am going to talk about Automated Builds with Continous Integr
 
 Build automation is the process of automating the retrieval of source code, compiling it into binary code, executing automated tests, and publishing it into a shared, centralized repository.
 
-Build automation is a critical first step of any CI/CD process. You must have build automation in place in order for Continuous Integration (CI) and Continous Deployment (CD) to occur.
+Build automation is a critical first step of any CI/CD process. You must have build automation in place in order for Continuous Integration (CI) and Continuous Deployment (CD) to occur.
 
 Automated Builds advantages:
 - A necessary pre-condition for continuous integration and continuous testing
@@ -23,14 +23,14 @@ Automated Builds advantages:
   We can find different types of automation softwares for different code languages that can be applied on Github Actions (what I will talk about later), there are all the avaible ones for each automated build task:
   
 
-#### For Continous Deployment:
+#### For Continuous Deployment:
 
 <p align="center">
   <img src="images/continous_deployment_examples.PNG">
 </p>
 
 
-#### For Continous Integration:
+#### For Continuous Integration:
 
 <p align="center">
   <img src="images/continous_integration_examples1.PNG">
@@ -49,11 +49,11 @@ Automated Builds advantages:
 </p>
 
 
-### Continous Integration (CI)
+### Continuous Integration (CI)
 
 Continuous Integration (CI) is a software development strategy that increases the speed of development while ensuring the quality of the code that teams deploy. Developers continually commit code in small increments, which is then automatically built and tested before it is merged with the shared repository.
 
-Continous integration benefits:
+Continuous integration benefits:
 - Improve team productivity and efficiency
 - Accelerate speed to market
 - Identify product/market fit
@@ -61,22 +61,22 @@ Continous integration benefits:
 - Increase customer satisfaction
 - Keep developers happy and shipping code
 
-How Continous Integration works?
+How Continuous Integration works?
 
 <p align="center">
   <img src="images/continous_integration.png">
 </p>
 
-When the developer performs a push on the source code Continous Integration automatically builds the code and test it, once is test it, the software reports if the code works, if the code is correct automatically will release it to the selected branch.
+When the developer performs a push on the source code Continuous Integration automatically builds the code and test it, once is test it, the software reports if the code works, if the code is correct automatically will release it to the selected branch.
 
 
-### Continous Deployment (CD)
+### Continuous Deployment (CD)
 
-Continuous Deployment builds on Continous Integration, is the methodology of creating a robust testing framework and automatically pushing your code out when tests pass. When new code is committed and passes the CI tests, the code is automatically deployed to production. 
+Continuous Deployment builds on Continuous Integration, is the methodology of creating a robust testing framework and automatically pushing your code out when tests pass. When new code is committed and passes the CI tests, the code is automatically deployed to production. 
 
 Continuous deployment also encourages other kinds of continuous action, like analytics, error reporting, and testing.
 
-Continous deployment benefits:
+Continuous deployment benefits:
 - Automate the repetitive tasks and focus on actual testing.
 - Make deployments frictionless without compromising security.
 - Connect your existing tools and technologies (such as CI providers or scripts) into a harmonious workflow.
@@ -85,15 +85,15 @@ Continous deployment benefits:
 - Ship both cloud-native and traditional applications in a unified pipeline.
 - Improve overall productivity.
 
-How Continous Deployment works?
+How Continuous Deployment works?
 
-As mentioned before, Continous Deployment works on Continous Integration, the work of Continous Deployment Software or Continous Delivery is to push and commit the code after the Continous Integration tests finished.
+As mentioned before, Continuous Deployment works on Continuous Integration, the work of Continuous Deployment Software or Continuous Delivery is to push and commit the code after the Continuous Integration tests finished.
 
 <p align="center">
   <img src="images/continous_deployment.png">
 </p>
 
-On the diagram above we can see all the phases of an Automated Build with the Continous Integration and Continous Deployment working on it. As you can see, the CI software is the first one working, it builds and test the code, after that the CD sfotware enters in scene testing the release to deploy it and finally operate it.
+On the diagram above we can see all the phases of an Automated Build with the Continuous Integration and Continuous Deployment working on it. As you can see, the CI software is the first one working, it builds and test the code, after that the CD sfotware enters in scene testing the release to deploy it and finally operate it.
 
 
 
@@ -142,7 +142,7 @@ We know what Automated Builds are and how they work, but how we set up automated
 
 ### Workflows
 
-Now we have our Continous Integration workflow added on our GitHub, but what exactly are these workflows? How they work?
+Now we have our Continuous Integration workflow added on our GitHub, but what exactly are these workflows? How they work?
 
 Workflows are all the processes of Build Automation such as build, test, package, release, or deploy our code on GitHub.
 
@@ -187,7 +187,7 @@ The Actions option is fully integrated into GitHub, so it doesn't require an ext
 
 #### Big variety of CI templates
 
-The platform provides many templates for all kinds of Continous Integration configurations, making it much easier to get started. In addition, you also have the option to create your own templates to later publish them on GitHub Marketplace.
+The platform provides many templates for all kinds of Continuous Integration configurations, making it much easier to get started. In addition, you also have the option to create your own templates to later publish them on GitHub Marketplace.
 
 #### Free for everyone
 
