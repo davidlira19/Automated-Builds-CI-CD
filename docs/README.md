@@ -274,6 +274,10 @@ There are a lot of actions that you can do with Automatic Builds in GitHub Actio
 
 <a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">https://gabrieltanner.org/blog/an-introduction-to-github-actions</a><br/>
 
+<a href="https://github.com/marketplace/actions/create-release">https://github.com/marketplace/actions/create-release</a><br/>
+
+<a href="https://github.com/marketplace/actions/zip-release">https://github.com/marketplace/actions/zip-release</a><br/>
+
 
 
 ## Contact
