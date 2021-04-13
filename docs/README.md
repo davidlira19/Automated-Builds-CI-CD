@@ -11,16 +11,15 @@ Build automation is the process of automating the retrieval of source code, comp
 Build automation is a critical first step of any CI/CD process. You must have build automation in place in order for Continuous Integration (CI) and Continuous Deployment (CD) to occur.
 
 Automated Builds advantages:
-- A necessary pre-condition for continuous integration and continuous testing
+- A necessary precondition for continuous integration and continuous testing
 - Improve product quality
 - Accelerate the compile and link processing
 - Eliminate redundant tasks
 - Minimize "bad builds"
-- Eliminate dependencies on key personnel
 - Have history of builds and releases in order to investigate issues
 - Save time and money - because of the reasons listed above.
 
-  We can find different types of automation softwares for different code languages that can be applied on Github Actions (what I will talk about later), there are all the avaible ones for each automated build task:
+  We can find different types of automation softwares for different code languages that can be applied on Github Actions (what I will talk about later), there are all the avaiable ones for each automated build task:
   
 
 #### For Continuous Deployment:
