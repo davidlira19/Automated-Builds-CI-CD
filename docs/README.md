@@ -92,7 +92,7 @@ As mentioned before, Continuous Deployment works on Continuous Integration, the 
   <img src="images/continous_deployment.png">
 </p>
 
-On the diagram above we can see all the phases of an Automated Build with the Continuous Integration and Continuous Deployment working on it. As you can see, the CI software is the first one working, it builds and test the code, after that the CD sfotware enters in scene testing the release to deploy it and finally operate it.
+On the diagram above we can see all the phases of an Automated Build with the Continuous Integration and Continuous Deployment working on it. As you can see, the CI software is the first one working, it builds and test the code, after that the CD software enters in scene testing the release to deploy it and finally operate it.
 
 
 
@@ -107,32 +107,32 @@ Thanks to GitHub we will be capable to download actions already programmed by ot
 
 We know what Automated Builds are and how they work, but how we set up automated builds with Github Actions?
 
-1. Go to your repository main page
-2. Click on "Actions" below your repository name
+1- Go to your repository main page
+2- Click on "Actions" below your repository name
 
 <p align="left">
   <img src="images/paso_2.PNG">
 </p>
 
-3. Find the software you want that matches the code you are gonna work with and click "Set up this workflow" (these are the above mentioned softwares for CI) in my case I used "Jekyll" that is based on HTML
+3- Find the software you want that matches the code you are gonna work with and click "Set up this workflow" (these are the above mentioned softwares for CI) in my case I used "Jekyll" that is based on HTML
 
 <p align="left">
   <img src="images/paso_3.PNG">
 </p>
 
-4. Click on "Start Commit"
+4- Click on "Start Commit"
 
 <p align="left">
   <img src="images/paso_4.PNG">
 </p>
 
-5. Select "Create new branch for this commit and start a pull request" and name it as you want and click on "Propose new file"
+5- Select "Create new branch for this commit and start a pull request" and name it as you want and click on "Propose new file"
 
 <p align="left">
   <img src="images/paso_5.PNG">
 </p>
 
-6. Click on "Create pull request"
+6- Click on "Create pull request"
 
 <p align="left">
   <img src="images/paso_6.PNG">
@@ -196,19 +196,19 @@ GitHub Actions is free for all open source repositories, and allows you to downl
 
 You can create your own workflows for GitHub Actions:
 
-1. Go to Github and select "New workflow"
+1- Go to Github and select "New workflow"
 
 <p align="center">
   <img src="images/paso_1v2.PNG">
 </p>
 
-2. Click on "Set Up This Workflow" on Simple workflow 
+2- Click on "Set Up This Workflow" on Simple workflow 
 
 <p align="center">
   <img src="images/paso_2v2.PNG">
 </p>
 
-3. Now you can modify the code as you want for create the workflow you want, if you want a more detailed guide of how the workflow works I recommend you to visit this <a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">website</a><br/> wich explains much more deeper how the workflow code works
+3- Now you can modify the code as you want for create the workflow you want, if you want a more detailed guide of how the workflow works I recommend you to visit this <a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">website</a><br/> wich explains much more deeper how the workflow code works
 
 <p align="center">
   <img src="images/paso_3v2.PNG">
@@ -219,9 +219,9 @@ You can create your own workflows for GitHub Actions:
 
 One of the best things of Github Actions is to create your own release based on your code, this is a basic tutorial for you to do it easily:
 
-1. Follow all the last tutorial guidelines and stay on the code editor
+1- Follow all the last tutorial guidelines and stay on the code editor
 
-2. We are gonna use two Github Actions from the Marketplace, one will be <a href="https://github.com/marketplace/actions/zip-release">Zip Release</a><br/> for creating our personalizaed zip on our release and the other will be <a href="https://github.com/marketplace/actions/create-release">Create Release</a><br/> wich combined with the other one, will make the release on our tags section
+2- We are gonna use two Github Actions from the Marketplace, one will be <a href="https://github.com/marketplace/actions/zip-release">Zip Release</a><br/> for creating our personalizaed zip on our release and the other will be <a href="https://github.com/marketplace/actions/create-release">Create Release</a><br/> wich combined with the other one, will make the release on our tags section
 
 <p align="center">
   <img src="images/zip_release.PNG">
@@ -231,7 +231,7 @@ One of the best things of Github Actions is to create your own release based on 
   <img src="images/create_release.PNG">
 </p>
 
-3. We need to implement the github actions by copying and pasting on our code, is so easy to implement but be sure to align the commands at the correct distance otherwise they won't work. You can modify the two of them as you want, for example on the Zip Release you can exclude the elements you don't need on your zip or select the folder directory that you want to zip, for thr Create Release code there are a bunch of options too, you can implement any as you want in order to personalize your release.
+3- We need to implement the github actions by copying and pasting on our code, is so easy to implement but be sure to align the commands at the correct distance otherwise they won't work. You can modify the two of them as you want, for example on the Zip Release you can exclude the elements you don't need on your zip or select the folder directory that you want to zip, for thr Create Release code there are a bunch of options too, you can implement any as you want in order to personalize your release.
 
 This is a functional basic code that creates a release on your tags to have it as an example.
 
