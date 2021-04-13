@@ -255,7 +255,18 @@ There are a lot of actions that you can do with Automatic Builds in GitHub Actio
 
 ## Conclusions
 
-I think Automated Builds are 
+I think Automated Builds are an essential for big projects, they make much more comfortable to work on your project.
+
+Pros:
+- Save time on making our releases
+- Personalize your project with practically no limitations
+- Your project will be much more professional
+- Eliminate repetitive tasks like updating your Readme or zip your releases
+
+Cons:
+- They are not essential on small projects
+- What other cons could the automatic builds have? Use them!
+
 
 ## Sources Links
 
