@@ -76,13 +76,12 @@ Continuous Deployment builds on Continuous Integration, is the methodology of cr
 Continuous deployment also encourages other kinds of continuous action, like analytics, error reporting, and testing.
 
 Continuous deployment benefits:
-- Automate the repetitive tasks and focus on actual testing.
-- Make deployments frictionless without compromising security.
-- Connect your existing tools and technologies (such as CI providers or scripts) into a harmonious workflow.
-- Integrate teams and processes with a unified pipeline.
+- Automate the repetitive tasks and focus on actual testing
+- Connect your existing tools and technologies (such as CI providers or scripts) into a harmonious workflow
+- Integrate teams and processes with a unified pipeline
 - Create workflows across the development, testing, and production environments
-- Ship both cloud-native and traditional applications in a unified pipeline.
-- Improve overall productivity.
+- Ship both cloud-native and traditional applications in a unified pipeline
+- Improve overall productivity
 
 How Continuous Deployment works?
 
@@ -221,7 +220,7 @@ One of the best things of Github Actions is to create your own release based on 
 
 1- Follow all the last tutorial guidelines and stay on the code editor
 
-2- We are gonna use two Github Actions from the Marketplace, one will be <a href="https://github.com/marketplace/actions/zip-release">Zip Release</a><br/> for creating our personalizaed zip on our release and the other will be <a href="https://github.com/marketplace/actions/create-release">Create Release</a><br/> wich combined with the other one, will make the release on our tags section
+2- We are gonna use two Github Actions from the Marketplace, one will be <a href="https://github.com/marketplace/actions/zip-release">Zip Release</a><br/> for creating our personalized zip on our release and the other will be <a href="https://github.com/marketplace/actions/create-release">Create Release</a><br/> witch combined with the other one, will make the release on our tags section
 
 <p align="center">
   <img src="images/zip_release.PNG">
