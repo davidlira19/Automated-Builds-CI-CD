@@ -274,7 +274,7 @@ Cons:
 
 <a href="https://docs.github.com/es/actions/guides/setting-up-continuous-integration-using-workflow-templates">https://docs.github.com/es/actions/guides/setting-up-continuous-integration-using-workflow-templates</a><br/>
 
-<a href="https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process,into%20a%20shared%2C%20centralized%20repository.">https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process,into%20a%20shared%2C%20centralized%20repository</a><br/>
+<a href="https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process,into%20a%20shared%2C%20centralized%20repository.">https://www.perforce.com/blog/vcs/build-automation#:~:text=Build%20automation%20is%20the%20process</a><br/>
 
 <a href="https://circleci.com/continuous-integration/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm_term=dynamicSearch-&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPCtaregAKqrh34Nf2OVNWYPRqjf38NP4E1ZbAEIeDrBVJMSNu7jMtRoCq3oQAvD_BwE">https://circleci.com/continuous-integration/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gb-DSA-Eng-emea&utm_content=&utm</a><br/>
 
