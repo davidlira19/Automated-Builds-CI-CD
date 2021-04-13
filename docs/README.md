@@ -142,9 +142,7 @@ We know what Automated Builds are and how they work, but how we set up automated
 
 Now we have our Continuous Integration workflow added on our GitHub, but what exactly are these workflows? How they work?
 
-Workflows are all the processes of Build Automation such as build, test, package, release, or deploy our code on GitHub.
-
-They are an automated procedure made up of one or more jobs that is added to a repository and can be triggered by an event. They are defined using yaml. or yml. files and with it you can build, test, package, reread or deploy a project.
+Workflows are all the processes of Build Automation. They are an automated procedure made up of one or more jobs that is added to a repository and can be triggered by an event. They are defined using yaml. or yml. files and with it you can build, test, package, release, or deploy our code on GitHub.
 
 #### Basic Concepts:
 
@@ -176,7 +174,6 @@ It is a machine with the GitHub Actions application already installed, whose fun
 
 ### Some GitHub Actions uses and benefits
 
-Guide to write scripts, manual copying README files, etc.
 One of the defining characteristics of GitHub Actions is the flexibility it provides, which translates into opening up a wide range of possibilities in which developers can unleash their creativity. Here are some other benefits that GitHub Actions offers:
 
 #### Developing on GitHub
@@ -207,7 +204,7 @@ You can create your own workflows for GitHub Actions:
   <img src="images/paso_2v2.PNG">
 </p>
 
-3- Now you can modify the code as you want for create the workflow you want, if you want a more detailed guide of how the workflow works I recommend you to visit this <a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">website</a><br/> wich explains much more deeper how the workflow code works
+3- Now you can modify the code as you want for create the workflow you want, if you want a more detailed guide of how the workflows works I recommend you to visit this <a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">website</a><br/> which explains much more deeper how the workflow code works
 
 <p align="center">
   <img src="images/paso_3v2.PNG">
@@ -220,7 +217,7 @@ One of the best things of Github Actions is to create your own release based on 
 
 1- Follow all the last tutorial guidelines and stay on the code editor
 
-2- We are gonna use two Github Actions from the Marketplace, one will be <a href="https://github.com/marketplace/actions/zip-release">Zip Release</a><br/> for creating our personalized zip on our release and the other will be <a href="https://github.com/marketplace/actions/create-release">Create Release</a><br/> witch combined with the other one, will make the release on our tags section
+2- We are gonna use two Github Actions from the Marketplace, one will be <a href="https://github.com/marketplace/actions/zip-release">Zip Release</a><br/> for creating our personalized zip on our release and the other will be <a href="https://github.com/marketplace/actions/create-release">Create Release</a><br/> which combined with the other one, will make the release on our tags section
 
 <p align="center">
   <img src="images/zip_release.PNG">
