@@ -209,7 +209,7 @@ You can create your own workflows for GitHub Actions:
   <img src="images/paso_2v2.PNG">
 </p>
 
-3. Now you can modify the code as you want for create the workflow you want, if you want a more detailed guide of how the workflow works I recommend you to visit this <a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">website</a><br/>wich explains much more deeper how the workflow code works
+3. Now you can modify the code as you want for create the workflow you want, if you want a more detailed guide of how the workflow works I recommend you to visit this <a href="https://gabrieltanner.org/blog/an-introduction-to-github-actions">website</a><br/> wich explains much more deeper how the workflow code works
 
 <p align="center">
   <img src="images/paso_3v2.PNG">
@@ -218,8 +218,27 @@ You can create your own workflows for GitHub Actions:
 
 ### Automatically zip. and Upload
 
-How to automatically zip and Upload back to github (CD)
+One of the best things of Github Actions is to create your own release based on your code, this is a basic tutorial for you to do it easily:
 
+1. Follow all the last tutorial guidelines and stay on the code editor
+
+2. We are gonna use two Github Actions from the Marketplace, one will be <a href="https://github.com/marketplace/actions/zip-release">Zip Release</a><br/> for creating our personalizaed zip on our release and the other will be <a href="https://github.com/marketplace/actions/create-release">Create Release</a><br/> wich combined with the other one, will make the release on our tags section
+
+<p align="center">
+  <img src="images/zip_release.PNG">
+</p>
+
+<p align="center">
+  <img src="images/create_release.PNG">
+</p>
+
+3. We need to implement the github actions by copying and pasting on our code, is so easy to implement but be sure to align the commands at the correct distance otherwise they won't work. You can modify the two of them as you want, for example on the Zip Release you can exclude the elements you don't need on your zip or select the folder directory that you want to zip, for thr Create Release code there are a bunch of options too, you can implement any as you want in order to personalize your release.
+
+This is a functional basic code that creates a release on your tags to have it as an example.
+
+<p align="center">
+  <img src="images/release_zip.png">
+</p>
 
 ### Automatic Builds and Notifications
 
@@ -231,6 +250,13 @@ You can receive Automated Builds notifications on your gmail if you want, is so 
 
 If this option is enabled you will recieve a notification each time the push fails or the CD makes a release, is activated by default
 
+### Automatic Builds Uses
+
+There are a lot of actions that you can do with Automatic Builds in GitHub Actions, like compress files or folders, make releases, change the readme version, upload releases, etc. With the Marketplace and your own code the limit of possibilities is your own imagination!
+
+<p align="center">
+  <img src="images/github.PNG">
+</p>
 
 ## Sources Links
 
