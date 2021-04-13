@@ -258,6 +258,10 @@ There are a lot of actions that you can do with Automatic Builds in GitHub Actio
   <img src="images/github.PNG">
 </p>
 
+## Conclusions
+
+I think Automated Builds are 
+
 ## Sources Links
 
 <a href="https://www.youtube.com/watch?v=cP0I9w2coGU&ab_channel=GitHub">https://www.youtube.com/watch?v=cP0I9w2coGU&ab_channel=GitHub</a><br/>
